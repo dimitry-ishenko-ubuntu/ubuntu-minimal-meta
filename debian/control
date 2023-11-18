@@ -1,0 +1,15 @@
+Source: ubuntu-minimal-meta
+Priority: important
+Section: metapackages
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Build-Depends: debhelper-compat (= 12)
+Standards-Version: 4.6.0
+Rules-Requires-Root: no
+
+Package: ubuntu-minimal-meta
+Architecture: amd64 arm64
+Depends: distro-info, flash-kernel [arm64], initramfs-tools, linux-firmware-raspi [arm64], linux-generic [amd64], linux-raspi [arm64], systemd-boot [amd64] | systemd [amd64], u-boot-rpi [arm64], ubuntu-minimal
+Provides: grub, isc-dhcp-client, netplan.io, rsyslog
+Conflicts: isc-dhcp-client, netplan.io, rsyslog
+Replaces: isc-dhcp-client, netplan.io, rsyslog
+Description: ubuntu-minimal-meta
