@@ -1,3 +1,11 @@
+ubuntu-minimal-meta (2.1) unstable; urgency=medium
+
+  * Add license
+  * Update workflow
+  * gbp.conf is not needed
+
+ -- Dimitry Ishenko <dimitry.ishenko@gmail.com>  Sun, 19 Nov 2023 19:09:31 -0500
+
 ubuntu-minimal-meta (2.0) unstable; urgency=medium
 
   * Import Debian package
