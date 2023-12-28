@@ -1,3 +1,10 @@
+ubuntu-minimal-meta (2.2) unstable; urgency=medium
+
+  * Not using workflows
+  * Install cmdline for systemd-boot
+
+ -- Dimitry Ishenko <dimitry.ishenko@gmail.com>  Thu, 28 Dec 2023 17:00:08 -0500
+
 ubuntu-minimal-meta (2.1) unstable; urgency=medium
 
   * Add license
