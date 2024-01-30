@@ -1,3 +1,9 @@
+ubuntu-minimal-meta (2.3) unstable; urgency=medium
+
+  * netplan.io is used by network-manager
+
+ -- Dimitry Ishenko <dimitry.ishenko@gmail.com>  Tue, 30 Jan 2024 16:36:36 -0500
+
 ubuntu-minimal-meta (2.2) unstable; urgency=medium
 
   * Not using workflows
