@@ -1,3 +1,9 @@
+ubuntu-minimal-meta (2.4) unstable; urgency=medium
+
+  * Add support for armhf (armbian)
+
+ -- Dimitry Ishenko <dimitry.ishenko@gmail.com>  Thu, 22 Aug 2024 17:21:36 -0400
+
 ubuntu-minimal-meta (2.3) unstable; urgency=medium
 
   * netplan.io is used by network-manager
