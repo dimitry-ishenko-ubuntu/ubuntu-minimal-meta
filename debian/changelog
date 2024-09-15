@@ -1,3 +1,9 @@
+ubuntu-minimal-meta (2.5) unstable; urgency=medium
+
+  * Drop support for focal
+
+ -- Dimitry Ishenko <dimitry.ishenko@gmail.com>  Sun, 15 Sep 2024 10:25:19 -0400
+
 ubuntu-minimal-meta (2.4) unstable; urgency=medium
 
   * Add support for armhf (armbian)
