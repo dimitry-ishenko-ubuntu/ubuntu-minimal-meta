@@ -1,1 +1,1 @@
-ubuntu-minimal-meta
+Ubuntu minimal meta-package

@@ -13,3 +13,4 @@ Provides: grub, isc-dhcp-client, rsyslog
 Conflicts: isc-dhcp-client, rsyslog
 Replaces: isc-dhcp-client, rsyslog
 Description: ubuntu-minimal-meta
+ Ubuntu minimal meta-package
