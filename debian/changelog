@@ -1,3 +1,10 @@
+ubuntu-minimal-meta (2.6) unstable; urgency=medium
+
+  * Kernel packages are now in kernel-meta
+  * Update description
+
+ -- Dimitry Ishenko <dimitry.ishenko@gmail.com>  Sat, 16 Nov 2024 18:56:08 -0500
+
 ubuntu-minimal-meta (2.5) unstable; urgency=medium
 
   * Drop support for focal
