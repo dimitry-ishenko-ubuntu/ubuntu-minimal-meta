@@ -3,5 +3,5 @@ Upstream-Name: ubuntu-minimal-meta
 Source: https://github.com/dimitry-ishenko-ubuntu/ubuntu-minimal-meta
 
 Files: *
-Copyright: 2023 Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Copyright: 2023-2024 Dimitry Ishenko <dimitry.ishenko@gmail.com>
 License: GPL-3.0+

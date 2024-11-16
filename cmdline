@@ -1,1 +1,0 @@
-ro net.ifnames=0 root=LABEL=root quiet splash

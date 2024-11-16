@@ -8,9 +8,9 @@ Rules-Requires-Root: no
 
 Package: ubuntu-minimal-meta
 Architecture: amd64 arm64 armhf
-Depends: armbian-firmware [armhf], armbian-u-boot [armhf], distro-info, flash-kernel [arm64], initramfs-tools, linux-dtb-armbian [armhf], linux-firmware-raspi [arm64], linux-generic [amd64], linux-image-armbian [armhf], linux-raspi [arm64], systemd-boot [amd64], u-boot-rpi [arm64], ubuntu-minimal
-Provides: grub, isc-dhcp-client, rsyslog
-Conflicts: isc-dhcp-client, rsyslog
-Replaces: isc-dhcp-client, rsyslog
+Depends: distro-info, ubuntu-minimal
+Provides: dhcpcd-base, isc-dhcp-client, rsyslog
+Conflicts: dhcpcd-base, isc-dhcp-client, rsyslog
+Replaces: dhcpcd-base, isc-dhcp-client, rsyslog
 Description: ubuntu-minimal-meta
  Ubuntu minimal meta-package
